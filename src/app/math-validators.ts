@@ -1,5 +1,6 @@
 import { AbstractControl } from "@angular/forms"
 
+//custom validator for checking if the sum of the 2 values displayed is correct
 export class MathValidators {
     static addition(target: string, sourceOne: string, sourceTwo: string) {
         return (form: AbstractControl) => {
